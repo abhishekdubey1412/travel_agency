@@ -40,7 +40,7 @@ header .content .cont_bx p{
 header .content .cont_bx button{
     margin-top: 20px;
     padding: 10px 20px;
-    border-radius: 20px;
+    border-radius: 8px;
     border: 2px solid #000000;
     background: #000000;
     color: #fff;
@@ -113,7 +113,7 @@ header .trip_bx .search_bx input[type="button"]{
     border: none;
     outline: none;
     padding: 10px 20px;
-    border-radius: 20px;
+    border-radius: 8px;
     transition: .3s linear;
     cursor: pointer;
 }
@@ -194,7 +194,7 @@ header .trip_bx .travel_bx .cards .card .btn_city a{
     text-decoration: none;
     background: #000000;
     color: #fff;
-    border-radius: 20px;
+    border-radius: 8px;
     padding: 6px 20px;
     font-size: 11px;
     transition: .3s linear;
