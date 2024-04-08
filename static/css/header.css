@@ -50,8 +50,8 @@ header .content .cont_bx button{
 }
 
 header .content .cont_bx button:hover{
-    background: #ffa432;
-    border: 2px solid #ffa432;
+    background: #393838;
+    border: 2px solid #393838;
 }
 
 header .trip_bx{
@@ -119,7 +119,7 @@ header .trip_bx .search_bx input[type="button"]{
 }
 
 header .trip_bx .search_bx input[type="button"]:hover{
-    background: #ffa432;
+    background: #393838;
 }
 
 header .trip_bx .travel_bx{
@@ -201,7 +201,7 @@ header .trip_bx .travel_bx .cards .card .btn_city a{
 }
 
 header .trip_bx .travel_bx .cards .card .btn_city a:hover{
-    background: #ffa432;
+    background: #393838;
 }
 
 header .trip_bx .travel_bx .cards .card .btn_city h4{
