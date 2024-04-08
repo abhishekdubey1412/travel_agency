@@ -43,7 +43,7 @@
                     "@type": "Thing",
                     "name": "{{ category|safe }}"
                   }
-                },
+                }{% if not forloop.last %},{% endif %}
                 {% endfor %}
               ]
             }
