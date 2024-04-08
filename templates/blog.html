@@ -27,7 +27,28 @@
           ]
         }
         </script>
-        
+
+        <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "ItemList",
+              "name": "Boatwale Categories",
+              "description": "{{ description|safe }}",
+              "itemListElement": [
+                {% for category in categories %}
+                {
+                  "@type": "ListItem",
+                  "position": {{ forloop.counter }},
+                  "item": {
+                    "@type": "Thing",
+                    "name": "{{ category|safe }}"
+                  }
+                },
+                {% endfor %}
+              ]
+            }
+        </script>
+
 {% endblock cssblock %}
 
 {% block content %}
