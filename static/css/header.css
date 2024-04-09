@@ -259,7 +259,7 @@ header .trip_bx .travel_bx .cards .card .btn_city h4 span{
     }
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 684px){
     header .trip_bx .search_bx .card{
         width: 140px;
     }
@@ -288,6 +288,7 @@ header .trip_bx .travel_bx .cards .card .btn_city h4 span{
 
     header .trip_bx .search_bx{
         width: 89%;
+        justify-content: space-between;
     }
 
     header .trip_bx .search_bx .card{
