@@ -17,7 +17,7 @@
         "addressCountry": "India"
       },
       "telephone": "+917376096419",
-      "url": "URL_of_the_service_page",
+      "url": "https://boatwale.com/{{request.path}}",
       "priceRange": "{{boat_product.price}}",
       "touristType": "religious",
       "offers": {
@@ -38,19 +38,20 @@
         "@type": "Organization",
         "name": "Boatwale",
         "telephone": "7376096419",
-        "url": "https://boatwale.com/{{request.path}}"
+        "url": "https://boatwale.com/"
       },
       "additionalProperty": [
-      {
-        "@type": "PropertyValue",
-        "name": "isAccessibleForFree",
-        "value": "False"
-      },
-      {
-        "@type": "PropertyValue",
-        "name": "isFamilyFriendly",
-        "value": "True"
-      },
+        {
+          "@type": "PropertyValue",
+          "name": "isAccessibleForFree",
+          "value": "False"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "isFamilyFriendly",
+          "value": "True"
+        }
+      ],
       "isPartOf": {
         "@type": "Place",
         "name": "Ganges River",
@@ -59,6 +60,7 @@
       }
     }
   </script>
+  
 
   <link rel="stylesheet" href="{% static "css/singal-product.css" %}">
 {% endblock cssblock %}
