@@ -1,9 +1,13 @@
 .content-section {
     background-color: #ffffff;
-    padding: 20px;
-    margin: 20px;
+    margin: 20px auto;
     border-radius: 6px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+.about-content{
+    padding: 20px;
 }
 
 .section-title {
@@ -52,4 +56,10 @@
 
 .link:hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 1249px) {
+    .content-section {
+        width: 94%;
+    }
 }
